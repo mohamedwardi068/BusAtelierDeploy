@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/BusAtelierDeploy/static/css/main.b7086b48.css",
-    "main.js": "/BusAtelierDeploy/static/js/main.eda03e9f.js",
+    "main.js": "/BusAtelierDeploy/static/js/main.9f29d12c.js",
     "index.html": "/BusAtelierDeploy/index.html",
     "main.b7086b48.css.map": "/BusAtelierDeploy/static/css/main.b7086b48.css.map",
-    "main.eda03e9f.js.map": "/BusAtelierDeploy/static/js/main.eda03e9f.js.map"
+    "main.9f29d12c.js.map": "/BusAtelierDeploy/static/js/main.9f29d12c.js.map"
   },
   "entrypoints": [
     "static/css/main.b7086b48.css",
-    "static/js/main.eda03e9f.js"
+    "static/js/main.9f29d12c.js"
   ]
 }
