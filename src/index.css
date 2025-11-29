@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none !important;
+  width: 0px;
+}
+
+.input {
+  @apply border p-2 rounded w-full;
+}
+.btn {
+  @apply bg-blue-500 text-white p-2 rounded hover:bg-blue-600;
+}
+.table {
+  @apply w-full border-collapse table-auto border;
+}
+th, td {
+  @apply border p-2 text-left;
+}
+
