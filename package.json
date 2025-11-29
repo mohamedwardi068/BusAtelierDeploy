@@ -2,6 +2,7 @@
   "name": "bus-management-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://mohamedwardi068.github.io/BusAtelierDeploy",
   "dependencies": {
     "@ericblade/quagga2": "^1.8.4",
     "@headlessui/react": "^2.2.4",
@@ -26,12 +27,15 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.4.24",
     "tailwindcss": "^3.3.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
