@@ -4,7 +4,7 @@ A comprehensive web application for managing an auto repair workshop. This syste
 
 Frontend demo available (secure backend not publicly accessible).:
    ```bash
-   https://github.com/mohamedwardi068/BusAtelierDeploy
+https://mohamedwardi068.github.io/BusAtelierDeploy
    ```
 ## Features
 
@@ -78,5 +78,6 @@ You can log in using the following credentials:
 
 This application currently runs with a **mock backend**. All data is stored in your browser's `localStorage`. Clearing your browser cache will reset the data.
 # BusAtelierDeploy
+
 
 
